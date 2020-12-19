@@ -1,6 +1,9 @@
 Welcome To Serenity Investments
 
 
+Note about configuration before running this application. You will need to download JAVAFX 15 in order to run this. Once you have download JAVAFX15 in your run configurations add this line "--module-path "/Users/stevebaca/Downloads/javafx-sdk-15.0.1/lib" --add-modules javafx.controls,javafx.fxml". Make sure that you click off the option "Use the -XstartOnFirstThread argument when launching with SWT".
+
+
 Quick Start
 
 To start, go to TradePro1.0/src/application/ and run the main() class to launch the GUI. You will see the intro scene. 

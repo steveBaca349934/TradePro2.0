@@ -385,9 +385,11 @@ public class RiskAssessmentTestController implements Initializable{
 
 				Parent part = FXMLLoader.load(getClass().getResource("/application/Portfolio.fxml"));
 				Stage stage = new Stage();
+				stage.setResizable(false);
 				Scene scene = new Scene(part);
 				scene.getStylesheets().add(getClass().getResource("/application/application.css").toExternalForm());
 				stage.setScene(scene);
+
 				stage.show();
 			}
 			catch (Exception e1) {

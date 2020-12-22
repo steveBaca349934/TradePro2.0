@@ -68,6 +68,7 @@ public class Scene1Controller implements Initializable{
 
 				Parent part = FXMLLoader.load(getClass().getResource("RiskAssessmentTest.fxml"));
 				Stage stage = new Stage();
+				stage.setResizable(false);
 				Scene scene = new Scene(part);
 				scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 				stage.setScene(scene);
@@ -94,6 +95,7 @@ public class Scene1Controller implements Initializable{
 
 				Parent part = FXMLLoader.load(getClass().getResource("/application/Portfolio.fxml"));
 				Stage stage = new Stage();
+				stage.setResizable(false);
 				Scene scene = new Scene(part);
 				scene.getStylesheets().add(getClass().getResource("/application/application.css").toExternalForm());
 				stage.setScene(scene);

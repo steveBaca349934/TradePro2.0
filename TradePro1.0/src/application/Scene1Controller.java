@@ -13,7 +13,6 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
-import javafx.scene.text.Font;
 import javafx.stage.Stage;
 import javafx.fxml.Initializable;
 
@@ -29,8 +28,8 @@ public class Scene1Controller implements Initializable{
 	@FXML
 	private Button yourStockInfo;
 
-	@FXML
-	private Button yourPortfolio;
+	/*@FXML
+	private Button yourPortfolio;*/
 
 	@FXML
 	private TextField sandp500Shower;
@@ -45,7 +44,7 @@ public class Scene1Controller implements Initializable{
 	public void initialize(URL arg0, ResourceBundle arg1) {
 
 		Button1Listener();
-		Button2Listener();
+
 		
 		try {
 			setDJIAandSandPText();
@@ -87,7 +86,7 @@ public class Scene1Controller implements Initializable{
 	/**
 	 * Launches portfolio builder
 	 */
-	public void Button2Listener() {
+	/*public void Button2Listener() {
 
 		yourPortfolio.setOnAction((ActionEvent e)->{
 
@@ -109,7 +108,7 @@ public class Scene1Controller implements Initializable{
 
 
 
-	}
+	}*/
 	
 	/**
 	 * sets the SandP500 and DJIA values 

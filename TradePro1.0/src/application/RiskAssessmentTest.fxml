@@ -37,7 +37,7 @@
                   </Menu>
               </menus>
             </MenuBar>
-            <TextField fx:id="ratTextBox" layoutX="321.0" layoutY="29.0" prefHeight="27.0" prefWidth="230.0" text="Welcome to The Risk Assessment Test" />
+            <TextField fx:id="ratTextBox" editable="false" layoutX="321.0" layoutY="29.0" prefHeight="27.0" prefWidth="230.0" text="Welcome to The Risk Assessment Test" />
             <Text fill="#eee4e4" layoutX="142.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Risk Rating" />
             <TextField fx:id="riskRating" layoutX="92.0" layoutY="85.0" promptText="Calculated Based Off Test" />
             <Text fill="#f8efef" layoutX="592.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Recommended Investment Timeline" />
